@@ -2,27 +2,27 @@ import React, { Component } from "react";
 import { experience } from "../../portfolio";
 import "./ExperienceCard.css";
 
-
 class ExperienceCard extends Component {
   render() {
     const experience = this.props.experience;
     const theme = this.props.theme;
     let video;
 
-    if (experience["video_link"] === "")
-      video = <p></p>;
+    if (experience["video_link"] === "") video = <p></p>;
     else
       video = (
         <center>
-            <a href={experience["video_link"]}
-             style={{ textDecoration: "none" }}
+          <a
+            href={experience["video_link"]}
+            target="_blank"
+            style={{ textDecoration: "none" }}
+          >
+            <p
+              style={{ color: theme.text, fontSize: "1.2em", color: "#DA0000" }}
             >
-              <p
-                  style={{ color: theme.text, fontSize: "1.2em", color: "black" }}
-              >
-                  Link to my presetation video! &nbsp;&nbsp; 🎥
-              </p>
-            </a>
+              See my presetation video! &nbsp;&nbsp; 📺
+            </p>
+          </a>
         </center>
       );
 
@@ -75,18 +75,21 @@ class ExperienceCard extends Component {
               </p>
             </div>
           </div>
+          <br />
+          <br />
 
           {experience.descriptions.map((sentence) => {
-                return (
-                  <p
-                    className="experience-card-description"
-                    style={{ color: theme.text }}
-                  >
-                    {sentence}
-                  </p>
-                );
-              })}
-          { video }
+            return (
+              <p
+                className="experience-card-description"
+                style={{ color: theme.text }}
+              >
+                {sentence}
+              </p>
+            );
+          })}
+          <br />
+          {video}
         </div>
       </div>
     );

@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Oussama Belouche Portfolio",
   description:
-    "A computer science student passionate about web and IA, with experience designing, coding and testing complex programs, adept at motivating self and others, and to learn new technologies.",
+    "A computer science student passionate about AI, mobile and web developement, with experience designing, coding and testing complex programs, adept at motivating self and others, and to learn new technologies.",
   og: {
     title: "Oussama Belouche Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "obelouch",
   nickname: "XD-OB",
   subTitle:
-    "A computer science student passionate about web and IA, with experience designing, coding and testing complex programs, adept at motivating self and others, and to learn new technologies. 👨‍💻",
+    "A computer science student passionate about AI, mobile and web developement, with experience designing, coding and testing complex programs, adept at motivating self and others, and to learn new technologies. 👨‍💻",
   resumeLink:
     "https://drive.google.com/file/d/1D_sLVfMSsWoKe_UseOpyIXLUuCGHFSPv/view",
   portfolio_repository: "https://github.com/XD-OB/",
@@ -80,9 +80,9 @@ const skills = {
       title: "Data Science & AI",
       fileName: "DataScienceImg",
       skills: [
-	"📊  Process and visualize the data using most advanced libraries, frameworks and softwares.",
-	"⚙️   Solid knowledge in several frameworks and programming languages used in this domain.",
-    	"💡  Identify issues and use data to propose solutions for effective decision making.",
+        "📊  Process and visualize the data using most advanced libraries, frameworks and softwares.",
+        "⚙️   Solid knowledge in several frameworks and programming languages used in this domain.",
+        "💡  Identify issues and use data to propose solutions for effective decision making.",
         "⚡  Developing highly scalable production ready models for various deeplearning and statistical use cases.",
       ],
       softwareSkills: [
@@ -93,7 +93,7 @@ const skills = {
             backgroundColor: "transparent",
           },
         },
-	{
+        {
           skillName: "Pandas",
           fontAwesomeClassname: "simple-icons:pandas",
           style: {
@@ -101,7 +101,7 @@ const skills = {
             color: "#3776AB",
           },
         },
-	{
+        {
           skillName: "Tensorflow",
           fontAwesomeClassname: "logos-tensorflow",
           style: {
@@ -116,7 +116,7 @@ const skills = {
             color: "#D00000",
           },
         },
-	{
+        {
           skillName: "Octave",
           fontAwesomeClassname: "simple-icons:octave",
           style: {
@@ -127,15 +127,15 @@ const skills = {
       ],
     },
     {
-      title: "Full Stack Development",
+      title: "Full Stack Web & Mobile App Development",
       fileName: "FullStackImg",
       skills: [
-        "🌼  Building respensive website front end using the latest frameworks",
-	"🖍️  Creating application backend and APIs using Node, Express and Django.",
+        "🌼  Building responsive website front end using the latest frameworks",
+        "🖍️  Creating application backend and APIs using Node, Express and Django.",
         "📱  Developing beautiful cross platform mobile applications using Flutter SDK.",
       ],
       softwareSkills: [
-	{
+        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -156,7 +156,7 @@ const skills = {
             color: "#1572B6",
           },
         },
-	{
+        {
           skillName: "Bootstrap",
           fontAwesomeClassname: "simple-icons:bootstrap",
           style: {
@@ -178,7 +178,7 @@ const skills = {
             color: "#61DAFB",
           },
         },
-	{
+        {
           skillName: "NextJS",
           fontAwesomeClassname: "simple-icons:next-dot-js",
           style: {
@@ -192,14 +192,14 @@ const skills = {
             color: "#339933",
           },
         },
-	{
+        {
           skillName: "Django",
           fontAwesomeClassname: "simple-icons:django",
           style: {
             color: "#092E20",
           },
         },
-	{
+        {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
           style: {
@@ -239,7 +239,7 @@ const skills = {
             color: "#336791",
           },
         },
-	{
+        {
           skillName: "MySQl",
           fontAwesomeClassname: "simple-icons:mysql",
           style: {
@@ -285,7 +285,7 @@ const skills = {
             color: "#F05032",
           },
         },
-	{
+        {
           skillName: "C",
           fontAwesomeClassname: "logos:c",
           style: {
@@ -312,7 +312,7 @@ const skills = {
           style: {
             color: "#0175C2",
           },
-        }
+        },
       ],
     },
   ],
@@ -337,7 +337,7 @@ const degrees = {
         "- Graphics,",
         "- Web & Mobile",
         "- Networking and System administration",
-        "- Unix & Security"
+        "- Unix & Security",
       ],
       website_link: "https://1337.ma/en/",
     },
@@ -347,10 +347,7 @@ const degrees = {
       logo_path: "fsr.png",
       alt_name: "FSR",
       duration: "Sep 2017 - Jun 2018",
-      descriptions: [
-        "S3 - S4",
-        "- SMI: Mathematics and Computer Sciences"
-      ],
+      descriptions: ["S3 - S4", "- SMI: Mathematics and Computer Sciences"],
       website_link: "http://www.fsr.ac.ma/",
     },
     {
@@ -363,7 +360,7 @@ const degrees = {
         "TSI: Technology and Industrial sciences",
         "- Mathematics",
         "- Physics & Chimistry",
-        "- Industrial science"
+        "- Industrial science",
       ],
       website_link: "https://centresalmanealfarissi.asso-web.com/",
     },
@@ -375,9 +372,10 @@ const degrees = {
       duration: "Sep 2012 - Jun 2015",
       descriptions: [
         "Baccalaureate degree",
-        "- STE: Sciences and Electrical Technology."
+        "- STE: Sciences and Electrical Technology.",
       ],
-      website_link: "https://www.communesmaroc.com/commune/bab-lamrissa/place/view/bab-lamrissa-ecole-lycee-technique-alfarabi",
+      website_link:
+        "https://www.communesmaroc.com/commune/bab-lamrissa/place/view/bab-lamrissa-ecole-lycee-technique-alfarabi",
     },
   ],
 };
@@ -385,11 +383,19 @@ const degrees = {
 const certifications = {
   certifications: [
     {
+      title: "Flutter Development Bootcamp with Dart",
+      subtitle: "- Udemy & Google Flutter team",
+      logo_path: "appbrewery.png",
+      certificate_link:
+        "https://www.udemy.com/course/flutter-bootcamp-with-dart/",
+      alt_name: "Udemy Flutter Certification",
+      color_code: "#D285CD",
+    },
+    {
       title: "Machine Learning",
       subtitle: "- Stanford University",
       logo_path: "stanford_logo.png",
-      certificate_link:
-        "http://coursera.org/verify/HUBALQVLNMEL",
+      certificate_link: "http://coursera.org/verify/HUBALQVLNMEL",
       alt_name: "Stanford University",
       color_code: "#8C151599",
     },
@@ -397,8 +403,7 @@ const certifications = {
       title: "ML for Business Professionals",
       subtitle: "- Google Cloud Platform Certified",
       logo_path: "gcp_logo.png",
-      certificate_link:
-        "http://coursera.org/verify/UMB5BD2GU2Z8",
+      certificate_link: "http://coursera.org/verify/UMB5BD2GU2Z8",
       alt_name: "GCP Training",
       color_code: "#A5E2FF",
     },
@@ -406,8 +411,7 @@ const certifications = {
       title: "The Bits and Bytes of Computer Networking",
       subtitle: "- Google",
       logo_path: "google_logo.png",
-      certificate_link:
-        "http://coursera.org/verify/FFE5FTEPDQZA",
+      certificate_link: "http://coursera.org/verify/FFE5FTEPDQZA",
       alt_name: "Google",
       color_code: "#9FFDDB",
     },
@@ -415,8 +419,7 @@ const certifications = {
       title: "Creating and Developing a Tech Startup",
       subtitle: "- École Polytechnique & HEC Paris",
       logo_path: "X_logo.png",
-      certificate_link:
-        "http://coursera.org/verify/J94E5T283YGE",
+      certificate_link: "http://coursera.org/verify/J94E5T283YGE",
       alt_name: "X & HEC Paris",
       color_code: "#F1F1F1",
     },
@@ -424,8 +427,7 @@ const certifications = {
       title: "Managing the Company of the Future",
       subtitle: "- London Business School",
       logo_path: "london_bs_logo.png",
-      certificate_link:
-        "http://coursera.org/verify/8PYUFFG33M5Y",
+      certificate_link: "http://coursera.org/verify/8PYUFFG33M5Y",
       alt_name: "London Business School",
       color_code: "#000C7C",
     },
@@ -433,8 +435,7 @@ const certifications = {
       title: "Marketing Analytics",
       subtitle: "- University of Virginia Darden School of Business",
       logo_path: "darden_logo.png",
-      certificate_link:
-        "http://coursera.org/verify/U8M8BG9BRSUK",
+      certificate_link: "http://coursera.org/verify/U8M8BG9BRSUK",
       alt_name: "Darden Business School",
       color_code: "#FBFFBC",
     },
@@ -446,7 +447,7 @@ const experience = {
   title: "Experience",
   subtitle: "Internship and Volunteership",
   //description:
-    //"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  //"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     // {
@@ -491,7 +492,7 @@ const experience = {
       title: "Internships",
       experiences: [
         {
-          title: "Digital Architect Intern Intern",
+          title: "Digital Architect Intern",
           company: "O.C.P SA",
           company_url: "https://www.ocpgroup.ma/",
           logo_path: "OCP.png",
@@ -524,10 +525,7 @@ const experience = {
           logo_path: "jcmp.png",
           duration: "Nov 2019 - Feb 2020",
           location: "Ben Guerir, Morocco",
-          descriptions:
-            [
-              "Jeune Communauté Marocaine Publico-Eco.",
-            ],
+          descriptions: ["Jeune Communauté Marocaine Publico-Eco."],
           video_link: "",
           color: "#4285F4",
         },
@@ -538,10 +536,9 @@ const experience = {
           logo_path: "nahdat_alhay.jpeg",
           duration: "Sep 2017 - Oct 2018",
           location: "Salé, Morocco",
-          descriptions:
-            [
-              "Organizing educational and awareness activities for the childrens."
-            ],
+          descriptions: [
+            "Organizing educational and awareness activities for the childrens.",
+          ],
           video_link: "",
           color: "#D83B01",
         },
@@ -564,7 +561,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "obelouch.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with AI, Web, Mobile, Cloud ...",
   },
   // blogSection: {
   //   title: "Blogs",
@@ -575,8 +572,7 @@ const contactPageData = {
   // },
   addressSection: {
     title: "Email",
-    subtitle:
-      "oussama.belouche@gmail.com",
+    subtitle: "oussama.belouche@gmail.com",
     avatar_image_path: "address_image.svg",
     location_map_link: "",
   },
